@@ -11,7 +11,7 @@ end
 
 def current_player(board)
  if turn_count.even? 
-  X 
+   return X 
   binding.pry
  else
    O
