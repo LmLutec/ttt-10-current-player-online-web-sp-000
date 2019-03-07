@@ -8,11 +8,10 @@ def turn_count(board)
 end
  return count 
 end
-
+binding.pry 
 def current_player(board)
  if turn_count.even? 
    return true
-  binding.pry
  else
    return false 
   end
