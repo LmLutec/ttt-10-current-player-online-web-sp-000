@@ -1,4 +1,4 @@
-require 'pry'
+
 def turn_count(board)
   count = 0 
   board.each do |index|
@@ -16,4 +16,3 @@ def current_player(board)
    return false 
   end
 end
-binding.pry 
